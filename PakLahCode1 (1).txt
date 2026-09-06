@@ -1,0 +1,1668 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2008,
+            "summary": "\n<div style=\"display: flex; gap: 12px; align-items: flex-start; max-height: 185px; overflow-y: scroll; padding: 8px; box-sizing: border-box; background-color: #ece9d8; border: 2px solid #003c74; border-radius: 3px; font-family: 'Tahoma', 'Segoe UI', sans-serif;\">\n\n  \n  \n\n  <!-- RIGHT SIDE: XP NARRATIVE TEXT -->\n  <div style=\"flex: 1; font-size: 11px; line-height: 1.45; color: #000000; font-family: 'Tahoma', sans-serif;\">\n\n    <p style=\"margin-top: 0; margin-bottom: 8px;\">When Abdullah Ahmad Badawi stepped up to the podium on October 31, 2003, to take the oath of office as Malaysia’s fifth Prime Minister, he inherited a nation at a profound psychological crossroads.</p>\n\n    <p style=\"margin-bottom: 8px;\">For twenty-two years, the country had run on the high-octane, centralized engine of Dr. Mahathir Mohamad—an era defined by soaring skyscrapers, state-directed industrial megaprojects, and an unyielding executive grip that left little room for political dissent. Badawi, affectionately known as <i>Pak Lah</i>, represented a sharp, deliberate break from that past. Soft-spoken, deeply religious, and regarded across the political spectrum as a principled gentleman, his inauguration marked a quiet revolution of style: where Mahathir ruled through confrontation, Badawi promised governance through humility, civilizational decency, and moral renewal.</p>\n\n    <p style=\"margin-bottom: 8px;\">His inaugural vision was anchored by <b>Islam Hadhari</b>—a progressive, civilizational framework that sought to harmonize Islamic values with economic modernization, scientific inquiry, administrative integrity, and protection for religious minorities. Armed with a gentle demeanor and an unblemished personal record, Badawi promised to dismantle the toxic culture of money politics, grant true independence to the judiciary, empower the Anti-Corruption Agency (MACC), and give breathing room to a long-stifled civil society.</p>\n\n    <p style=\"margin-bottom: 8px;\">Yet, from his very first day in Putrajaya, the central paradox of Badawi’s premiership emerged: <b>How do you execute sweeping structural reforms without burning down the very political machine that put you in power?</b></p>\n\n",
+            "image_url": "https://file.garden/apLP0tsVfKnl2DbK/PakLah-1024x504.jpg",
+            "winning_electoral_vote_number": 112,
+            "advisor_url": "https://file.garden/apLP0tsVfKnl2DbK/Untitled%20design.gif",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Articles</h4>FiveThirtyEight - <a href=\"http://projects.fivethirtyeight.com/2016-swing-the-election/\" target=\"_blank\"> What Would It Take To Turn Blue States Red?</a></br><a href=\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don’t Be So Sure.</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\" target=\"_blank\">Hard Choices</a></br>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\" target=\"_blank\">Living History</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\" target=\"_blank\">Crippled America: How to Make America Great Again</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\" target=\"_blank\">The Art of the Deal</a></br>\nGary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "MY_2008",
+            "recommended_reading_enabled": true
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2008,
+        "is_premium": 0,
+        "display_year": "MY_2008"
+    }
+];
+
+RecReading = true;
+
+campaignTrail_temp.credits = "Emotional_Spring_116";
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 35,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+];
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1001,
+        "fields": {
+            "first_name": "",
+            "last_name": "Barisan Nasional",
+            "election": 20,
+            "party": " Incumbent Governing Coalition (Since 1973)",
+            "state": " Big Tent, Consociationalism, Moderate Conservatism",
+            "priority": 1,
+            "description": "<div style=\"font-family: 'Tahoma', sans-serif; font-size: 11px; line-height: 1.45; color: #000000; padding: px;\">\n\n <!-- PARTY SLOGAN / QUOTE -->\n  <p style=\"font-style: italic; margin-bottom: 12px; text-align: left;\">\n    \"Cemerlang, Gemilang, Terbilang\" — (Excellence, Glory, Distinction)\n  </p>\n\n  <!-- MAIN PARTY DESCRIPTION -->\n  <p style=\"margin-bottom: 10px;\">\n    <div style='overflow-y:scroll;height:170px;'><b>Barisan Nasional.</b> For over three decades, the Grand Coalition has stood as the unchallenged titan of Malaysian politics. Born out of the ashes of the 1969 racial riots under Tun Abdul Razak, BN was constructed on a delicate formula of power-sharing: UMNO leading the Malay majority, flanked by the MCA for the Chinese community, the MIC for the Indian populace, and a network of regional allies across Sabah and Sarawak.\n  </p>\n\n  <p style=\"margin-bottom: 10px;\">\n    Under Mahathir Mohamad, the coalition transformed Malaysia into an Asian Tiger economy, relying on structural stability, heavy infrastructure projects, and an ironclad two-thirds parliamentary supermajority. Now under Abdullah Ahmad Badawi, the party presents a gentler, more institutional face to the electorate—driven by <i>Islam Hadhari</i>, administrative reform, and civilizational progress.\n  </p>\n\n  <p style=\"margin-bottom: 10px;\">\n    However, the cracks in the fortress are widening. Decades of uninterrupted rule have bred deep structural corruption, rising ethnic resentment, and backroom patronage networks that resist Badawi's reformist agenda. Meanwhile, urban voters, minority communities, and a newly energized civil society are growing tired of race-based politics.\n  </p>\n\n  <p style=\"margin-bottom: 0;\">\n    In 2008, the ruling coalition faces an unprecedented challenge. Can Barisan Nasional prove that its consociational model is still the ultimate guarantee of national stability, or will the juggernaut finally fracture under the weight of a united opposition?\n  </p>\n\n</div>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "",
+            "is_active": 1,
+            "image_url": "https://file.garden/apLP0tsVfKnl2DbK/Barisan_Nasional.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 204,
+        "fields": {
+            "first_name": "Mike",
+            "last_name": "Pence",
+            "election": 20,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/mike-pence-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Mike Pence is a former Congressman and the current Governor of Indiana. He is a popular figure among social conservatives and would help assuage concern about Trump among party insiders. He would add executive experience to the ticket and make few mistakes on the campaign trail, but he could also undercut Trump's outsider credentials.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 205,
+        "fields": {
+            "first_name": "Chris",
+            "last_name": "Christie",
+            "election": 20,
+            "party": "Republican",
+            "state": "New Jersey",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/chris-christie-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Chris Christie is the current Governor of New Jersey, and was Trump's first opponent to endorse him, after making his own bid for the Republican nomination. Christie once enjoyed significant bipartisan support in New Jersey, but that has plummeted. His selection would double-down on Trump's image as an unorthodox, East Coast-influenced Republican. This may or may not be helpful.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 208,
+        "fields": {
+            "first_name": "Sarah",
+            "last_name": "Palin",
+            "election": 20,
+            "party": "Republican",
+            "state": "Alaska",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/sarah-palin-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Sarah Palin is the former Governor of Alaska and ill-fated running mate on John McCain's 2008 ticket. Many people believe that she alienated some moderate support and may have cost McCain the election. On the other hand, she endorsed your candidacy relatively early and is still something of a folk hero on the right. In any case, she would certainly help you grab an even greater share of the headlines this fall.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 206,
+        "fields": {
+            "first_name": "Ben",
+            "last_name": "Carson",
+            "election": 20,
+            "party": "Republican",
+            "state": "Michigan",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/ben-carson-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Ben Carson was a candidate for President in 2016, with a long history within the evangelical community. He has never served in political office, a fact which may be an asset in this election. Carson was one of the Trump's first opponents to publicly endorse him, and he consistently polled relatively high in the black community during the primary season. However, he has also made a number of bizarre statements and may be vulnerable to a sustained attack campaign.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 207,
+        "fields": {
+            "first_name": "Jeff",
+            "last_name": "Sessions",
+            "election": 20,
+            "party": "Republican",
+            "state": "Alabama",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/jeff-sessions-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Jeff Sessions, a Senator from Alabama, was the first major Republican politician to endorse your candidacy. He could help shore up some potentially shaky support on the right of the Republican party. Conversely, Alabama is not competitive, and sustained attacks on Hillary Clinton may be all that is needed to keep that wing in line.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 209,
+        "fields": {
+            "first_name": "Tim",
+            "last_name": "Kaine",
+            "election": 20,
+            "party": "Democrat",
+            "state": "Virginia",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/tim-kaine-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 210,
+        "fields": {
+            "first_name": "Bernie",
+            "last_name": "Sanders",
+            "election": 20,
+            "party": "Democrat",
+            "state": "Vermont",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/bernie-sanders-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Bernie Sanders was your main opponent in the nomination battle. There's no pretending that the two of you have a warm relationship, but he does have fierce support from many of your potential voters. On the other hand, if you want to make the case that you're a moderate alternative to Trump's extremism, having Bernie on the ticket will not help on that front.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 211,
+        "fields": {
+            "first_name": "Cory",
+            "last_name": "Booker",
+            "election": 20,
+            "party": "Democrat",
+            "state": "New Jersey",
+            "priority": 11,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/cory-booker-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Cory Booker is a Senator from New Jersey and was also the Mayor of Newark for several years. Politically, he is a mainstream Democrat, relatively similar to Barack Obama. He is also relatively youthful, with somewhat of a national profile. Turning out the black vote, and preventing even a handful of defectors to Trump, will be essential to a Clinton victory. However, Booker inspires limited enthusiasm amongst Sanders supporters.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 212,
+        "fields": {
+            "first_name": "Elizabeth",
+            "last_name": "Warren",
+            "election": 20,
+            "party": "Democrat",
+            "state": "Massachusetts",
+            "priority": 12,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/elizabeth-warren-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Elizabeth Warren is a Senator from Massachusetts and an icon to progressive Democrats. Selecting her could be a good way to appeal to supporters of Bernie Sanders, but she will expect Clinton to adhere to progressive stances throughout the campaign, as a condition of joining the ticket. Some observers think that having two women on the ticket may be a bit much, and also point out that Warren's home state is safely Democratic.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 213,
+        "fields": {
+            "first_name": "Sherrod",
+            "last_name": "Brown",
+            "election": 20,
+            "party": "Democrat",
+            "state": "Ohio",
+            "priority": 13,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/sherrod-brown-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Sherrod Brown is a Senator from Ohio with a long history in that crucial state. He has generally been on the liberal end of the Democratic spectrum, but could help Clinton compete in the Midwest. Brown is reluctant to serve as a running mate this year. Clinton will need to give assurances that her change of position on trade issues, like the Trans-Pacific Partnership, is a permanent change, and was not one of political expediency.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 214,
+        "fields": {
+            "first_name": "William",
+            "last_name": "Weld",
+            "election": 20,
+            "party": "Libertarian",
+            "state": "Massachusetts",
+            "priority": 14,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 215,
+        "fields": {
+            "first_name": "Abdullah",
+            "last_name": "Badawi",
+            "election": 20,
+            "party": "Prime Minister of Malaysia & President of UMNO",
+            "state": "Kepala Batas",
+            "priority": 15,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://file.garden/apLP0tsVfKnl2DbK/Abdullah_Ahmad_Badawi_at_the_XIVth_Non-Aligned_Movement_Summit_at_Havana%2C_Cuba_on_September_16%2C_2006.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<img src=\"x\" onerror=\"\n  if (!window.candidateHeaderSwapped) {\n    window.candidateHeaderSwapped = true;\n    \n    setInterval(function() {\n      var gameWindow = document.getElementById('game_window');\n      if (gameWindow) {\n        var elements = gameWindow.querySelectorAll('h2, h3, h4, p, b, span, div, label');\n        elements.forEach(function(el) {\n          if (el.children.length === 0 && (el.innerText.includes('Select your candidate') || el.innerText.includes('select your candidate'))) {\n            el.innerText = el.innerText.replace(/Please select your candidate:/gi, 'Please select your party:')\n                                       .replace(/Select your candidate:/gi, 'Select your                        .replace(/Select your candidate/gi, 'Select your party');\n          }\n        });\n      }\n    }, 100);\n  }\n\" style=\"display:none;\">\n<img src=\"x\" onerror=\"\n  if (!window.candidateLabelsSwapped) {\n    window.candidateLabelsSwapped = true;\n    \n    setInterval(function() {\n      var gameWindow = document.getElementById('game_window');\n      if (gameWindow) {\n        var elements = gameWindow.querySelectorAll('p, b, span, div, li, td');\n        elements.forEach(function(el) {\n          if (el.children.length === 0) {\n            if (el.innerText.includes('Party:')) {\n              el.innerText = el.innerText.replace('Party:', 'Role:');\n            }\n            if (el.innerText.includes('Home State:')) {\n              el.innerText = el.innerText.replace('Home State:', 'Ideology:');\n            }\n          }\n        });\n      }\n    }, 100);\n  }\n\" style=\"display:none;\">\n\n<style>\n  /* Hide TCT built-in candidate list */\n  #candidate_summary > ul:first-child,\n  #game_window #candidate_summary > ul,\n  #game_window div > ul:first-of-type:not(.custom-badawi-list) {\n    display: none !important;\n  }\n</style>\n\n<div style=\"font-family: 'Tahoma', sans-serif; font-size: 11px; line-height: 1.45; color: #000000; padding: 2px;\">\n\n  <!-- CUSTOM BULLET LIST (Tagged with class so it won't be hidden) -->\n  <ul class=\"custom-badawi-list\" style=\"margin-top: 0; margin-bottom: 12px; padding-left: 18px; list-style-type: disc; display: block !important;\">\n    <li style=\"margin-bottom: 4px;\"><b>Name:</b> Abdullah bin Ahmad Badawi</li>\n    <li style=\"margin-bottom: 4px;\"><b>Role:</b> Prime Minister of Malaysia & President of UMNO</li>\n    <li style=\"margin-bottom: 4px;\"><b>Constituency:</b> Kepala Batas</li>\n  </ul>\n\n  <!-- FAMOUS BADAWI QUOTE -->\n  <p style=\"font-style: italic; margin-bottom: 12px; text-align: left;\">\n    \"Work with me, not for me. I am not a king, I am a leader of a democratic government.\"\n  </p>\n\n  <!-- MAIN BIO -->\n  <p style=\"margin-bottom: 10px;\">\n    <div style='overflow-y:scroll;height:170px;'><b>Abdullah Ahmad Badawi.</b> The former civil servant from Penang. Once a quiet bureaucrat in the Ministry of Culture, Youth and Sports whose biggest daily concern was filing paperwork and organizing state sports meets, he spent three decades proving his UMNO loyalty until he somehow inherited the keys to Putrajaya. Not a bad promotion for a former civil servant.\n  </p>\n\n  <p style=\"margin-bottom: 10px;\">\n    Taking power on October 31, 2003, Badawi brought a gentler, more soft-spoken style to the top seat. Armed with his vision of <i>Islam Hadhari</i> and promises of anti-corruption reforms, judicial independence, and civilizational moderation, he led Barisan Nasional to a crushing landslide victory in 2004, securing over 90% of Parliament.\n  </p>\n\n  <p style=\"margin-bottom: 10px;\">\n    However, the honeymoon was short-lived. Canceling Mahathir's high-cost megaprojects earned him a bitter, relentless enemy in the former Prime Minister. Meanwhile, releasing opposition icon Anwar Ibrahim from prison, combined with rising living costs and ethnic tensions, allowed a newly unified opposition coalition to gain rapid momentum.\n  </p>\n\n  <p style=\"margin-bottom: 0;\">\n    Now in 2008, <i>Pak Lah</i> faces his ultimate test: holding together the vast Barisan Nasional machine against a surging Pakatan Rakyat front while proving that his \"Mr. Clean\" image wasn't just a fleeting political illusion.\n</div>  </p>\n\n</div>\n\n\n<!-- CODE 1 RUNNING MATE -> LEADER TEXT SWAPPER -->\n<img src=\"x\" onerror=\"\n  if (!window.leaderHeaderSwapped) {\n    window.leaderHeaderSwapped = true;\n    \n    setInterval(function() {\n      var gameWindow = document.getElementById('game_window');\n      if (gameWindow) {\n        var elements = gameWindow.querySelectorAll('h2, h3, h4, p, b, span, div, label');\n        elements.forEach(function(el) {\n          if (el.children.length === 0 && (\n            el.innerText.includes('running mate') || \n            el.innerText.includes('Running Mate') || \n            el.innerText.includes('vice president') || \n            el.innerText.includes('Vice President')\n          )) {\n            el.innerText = el.innerText\n              .replace(/Please select your running mate:/gi, 'Please select your leader:')\n              .replace(/Select your running mate:/gi, 'Select your leader:')\n              .replace(/Select Your Running Mate/gi, 'Select your leader')\n              .replace(/Please select your vice president:/gi, 'Please select your leader:')\n              .replace(/Select your vice president:/gi, 'Select your leader:');\n          }\n        });\n      }\n    }, 100);\n  }\n\" style=\"display:none;\">",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 132,
+        "fields": {
+            "first_name": "",
+            "last_name": "Pakatan Rakyat",
+            "election": 20,
+            "party": "placeholder",
+            "state": "placeholder",
+            "priority": 1,
+            "description": "Candidate description here.",
+            "color_hex": "#CCCCCC",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "",
+            "electoral_victory_message": "Winner!",
+            "electoral_loss_message": "Loser!",
+            "no_electoral_majority_message": "Majority?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+];
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 109261,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 215
+        }
+    }
+];
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            132
+        ]
+    }
+];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            132
+        ]
+    }
+];
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#020617",
+    "header_text_color": "#f9fafb",
+    "description_background_color": "#1f2937",
+    "description_text_color": "#e5e7eb",
+    "main_color": "#0b1220",
+    "secondary_color": "#2563eb",
+    "ui_text_color": "#ffffff",
+    "site_title": "",
+    "site_image_url": ""
+};
+
+jet_data = {
+    "headerColor": "#99001f",
+    "headerTextColor": "#ffffff",
+    "windowColor": "#a1a1a1",
+    "containerColor": "#949494",
+    "innerWindowColor": "#6b7aa8",
+    "innerWindowTextColor": "#000000",
+    "descriptionWindowColor": "#f8f8f8",
+    "descriptionWindowTextColor": "#000000",
+    "startButtonColor": "#ffa0a0",
+    "bannerImageUrl": "https://file.garden/apLP0tsVfKnl2DbK/New%20Project.png",
+    "backgroundImageUrl": "https://file.garden/apLP0tsVfKnl2DbK/exterior-view-of-malaysian-parliament-in-kuala-lumpur-april-2008-B48R22.jpg",
+    "gameTitle": "THE MALAYSIAN TRAIL",
+    "customQuote": "\"We do not want a situation in Malaysia where we have first-class facilities or infrastructure, but a third-class mentality.\"",
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#000000",
+    "modBoxTheme": {
+        "header_color": "#020617",
+        "header_text_color": "#f9fafb",
+        "description_background_color": "#1f2937",
+        "description_text_color": "#e5e7eb",
+        "main_color": "#0b1220",
+        "secondary_color": "#2563eb",
+        "ui_text_color": "#ffffff",
+        "site_title": "",
+        "site_image_url": ""
+    }
+};
+
+//#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
+
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
+
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
+
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #000000; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #6b7aa8 !important; color: #000000; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #f8f8f8 !important; color: #000000; }
+      .campaign_trail_start_emphasis { background-color: #ffa0a0 !important; }
+    `;
+    document.head.appendChild(style);
+}
+
+corrr = '\n              <h2>THE MALAYSIAN TRAIL</h2><font id="wittyquote" size="4"><em>"We do not want a situation in Malaysia where we have first-class facilities or infrastructure, but a third-class mentality."</em></font>\n            ';
+
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+// define / override theme values
+theme.coloring_title     = "#99001f";
+theme.coloring_window    = "#a1a1a1";
+theme.coloring_container = "#949494";
+theme.header_image = "https://file.garden/apLP0tsVfKnl2DbK/New%20Project.png";
+theme.body_background = "https://file.garden/apLP0tsVfKnl2DbK/exterior-view-of-malaysian-parliament-in-kuala-lumpur-april-2008-B48R22.jpg";
+
+applyTheme(theme);
+
+
+// This is a modified version of the music player
+// used in the 2005 UK: Forward Not Back demo.
+class Song {
+  constructor(title, artist, coverLink, audioLink) {
+    this.title = title;
+    this.artist = artist;
+    this.coverLink = coverLink;
+    this.audioLink = audioLink;
+  }
+  getTitle() { return this.title; }
+  getArtist() { return this.artist; }
+  getCoverLink() { return this.coverLink; }
+  getAudioLink() { return this.audioLink; }
+}
+
+class Playlist {
+  constructor() {
+    this.songs = [];
+    this.currentSongIndex = 0;
+  }
+  addSong(song) { this.songs.push(song); }
+  getCurrentSong() { return this.songs[this.currentSongIndex]; }
+
+  playNext() {
+    if (this.songs.length === 0) return;
+    this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+  }
+
+  playPrevious() {
+    if (this.songs.length === 0) return;
+    this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+  }
+}
+
+window.Playlist = Playlist;
+window.Song = Song;
+
+let activePlaylist = new Playlist();
+let audioInstance = null;
+let currentVolume = 1;
+
+// assets
+const ASSETS = {
+  bg: "https://imgur.com/uDXpBKg.png",
+  infoBg: "https://imgur.com/AxVh28b.png",
+  btnPrev: "https://imgur.com/QyN8Ojs.png",
+  btnPlay: "https://imgur.com/kRt7zCn.png",
+  btnPause: "https://imgur.com/TMvlg4x.png",
+  btnNext: "https://imgur.com/Ztr2WXV.png",
+  volIcon: "https://imgur.com/FHoumEj.png"
+};
+
+function changePlaylist(newPlaylist) {
+  activePlaylist = newPlaylist;
+  activePlaylist.currentSongIndex = 0;
+
+  updateUI(activePlaylist);
+
+  // ensure audio exists before trying to access it
+  const audio = getAudioElement();
+  const song = activePlaylist.getCurrentSong();
+
+  if (song) {
+    audio.src = song.audioLink;
+    audio.play().catch(e => console.log("Autoplay blocked or waiting for interaction", e));
+    updatePlayPauseIcon(true);
+  }
+}
+window.changePlaylist = changePlaylist;
+
+function updateUI(playlist) {
+  const currentSong = playlist.getCurrentSong();
+  const player = document.getElementById("player");
+
+  if (!player || !currentSong) return;
+
+  const cover = player.querySelector("#cover");
+  const title = player.querySelector("#title");
+  const artist = player.querySelector("#artist");
+
+  if (cover) cover.src = currentSong.getCoverLink();
+  if (title) title.textContent = currentSong.getTitle();
+  if (artist) artist.textContent = currentSong.getArtist();
+}
+window.updateUI = updateUI;
+
+// helpers
+function getAudioElement() {
+  if (!audioInstance) {
+    audioInstance = document.createElement("audio");
+    audioInstance.id = "audio";
+    document.body.appendChild(audioInstance);
+  }
+  return audioInstance;
+}
+
+function updatePlayPauseIcon(isPlaying) {
+  const btn = document.getElementById("playPauseButton");
+  if (btn) {
+    btn.src = isPlaying ? ASSETS.btnPause : ASSETS.btnPlay;
+  }
+}
+
+// setup
+function setupMusicPlayer() {
+  const gameWindow = document.getElementById("game_window");
+  if (!gameWindow) {
+    console.warn("game_window element not found. Player will not be attached.");
+    return;
+  }
+
+  // prevent duplicate players
+  if (document.getElementById("player")) return;
+
+  const defaultSongs = [
+    ["Barisan Nasional Anthem", "Barisan Nasional", "https://file.garden/apLP0tsVfKnl2DbK/bn.jpg", "https://audio.jukehost.co.uk/01a05196-40ab-71dc-836f-8e92e72180fd"],
+    ["Take Me Out", "Franz Ferdinand", "https://imgur.com/OzJKvQg.png", "https://audio.jukehost.co.uk/spAFN999Bmwgy77DCFSrF1bCy2ab0bik"],
+    ["Keranamu Malaysia", "Pak Ngah", "https://file.garden/apLP0tsVfKnl2DbK/hqdefault.jpg", "https://audio.jukehost.co.uk/01a0519a-42a6-72b4-a8f5-dab0859a7826"],
+    ["Warisan", "Sudiman", "https://file.garden/apLP0tsVfKnl2DbK/hi.jpg", "https://audio.jukehost.co.uk/01a051a0-c0ca-71c7-b129-1682bb6eff3f"],
+    ["Vida La Vida", "Coldplay", "https://file.garden/apLP0tsVfKnl2DbK/images.jpg", "https://audio.jukehost.co.uk/01a0519c-06e9-700f-8463-a62e8ff508ee"],
+    ["Bleeding Love", "Leona Lewis", "https://file.garden/apLP0tsVfKnl2DbK/Leona_Lewis_-_Bleeding_Love.jpg", "https://audio.jukehost.co.uk/01a051a1-179b-70ed-8678-54db0d822384"],
+    ["Mungkin Nanti", "Peterpan", "https://file.garden/apLP0tsVfKnl2DbK/maxresdefault.jpg", "https://audio.jukehost.co.uk/01a051a3-f5cb-7302-ba32-1e0ceca30c6a"],
+    ["Bye Bye Bye", "NSYNC", "https://file.garden/apLP0tsVfKnl2DbK/ab67616d0000b273a6cb8fab778e1efc406a5909.jpg", "https://audio.jukehost.co.uk/01a051a2-31b3-7173-b255-e838b3948da1"]
+  ];
+
+  if (activePlaylist.songs.length === 0) {
+    defaultSongs.forEach(data => activePlaylist.addSong(new Song(...data)));
+  }
+
+  // inject CSS
+  const style = document.createElement("style");
+  style.textContent = `
+    @keyframes sliding {
+      from { transform: translateX(-30px); }
+      to   { transform: translateX(100%); }
+    }
+
+    :root {
+      --xp-progress-shadow: inset 0 0 1px 0 #686868;
+      --xp-progress-value-bg: repeating-linear-gradient(90deg, #fff 0, #fff 2px, transparent 0, transparent 10px),
+                              linear-gradient(180deg, #f5c6ba 0, #e89282 14%, #d96b5a 28%, #cb4e3d 42%, #ba3e2d 57%, #d96b5a 71%, #f5c6ba 85%, #fff);
+      --xp-progress-indeterminate-bg: repeating-linear-gradient(90deg, transparent 0, transparent 8px, #fff 0, #fff 10px, transparent 0, transparent 18px, #fff 0, #fff 20px, transparent 0, transparent 28px, #fff 0, #fff),
+                                      linear-gradient(180deg, #f5c6ba 0, #e89282 14%, #d96b5a 28%, #cb4e3d 42%, #ba3e2d 57%, #d96b5a 71%, #f5c6ba 85%, #fff);
+      --xp-range-track-shadow: 1px 0 0 #fff, 1px 1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #9d9c99, -1px -1px 0 #9d9c99, 0 -1px 0 #9d9c99, -1px 1px 0 #fff, 1px -1px #9d9c99;
+      --xp-range-track-shadow-vertical: -1px 0 0 #fff, -1px 1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #9d9c99, 1px -1px 0 #9d9c99, 0 -1px 0 #9d9c99, 1px 1px 0 #fff, -1px -1px #9d9c99;
+    }
+
+    /* progress bar base */
+    progress {
+      box-sizing: border-box; appearance: none; -webkit-appearance: none; -moz-appearance: none;
+      height: 14px; padding: 1px 2px 1px 0; overflow: hidden; background-color: #fff; border: 1px solid #686868; border-radius: 4px;
+      -webkit-box-shadow: var(--xp-progress-shadow); -moz-box-shadow: var(--xp-progress-shadow); box-shadow: var(--xp-progress-shadow);
+      cursor: pointer; /* Ensures users know they can click it */
+    }
+
+    progress[value]::-webkit-progress-bar { background-color: transparent; }
+
+    /* progress bar fill - Chrome / Safari / Edge */
+    progress[value]::-webkit-progress-value {
+      border-radius: 2px;
+      background: var(--xp-progress-value-bg);
+    }
+
+    /* progress bar fill - Firefox */
+    progress[value]::-moz-progress-bar {
+      border-radius: 2px;
+      background: var(--xp-progress-value-bg);
+    }
+
+    /* indeterminate progress bar */
+    progress:not([value]) { position: relative; }
+
+    progress:not([value])::-webkit-progress-bar {
+      width: 100%;
+      background: var(--xp-progress-indeterminate-bg);
+      animation: sliding 2s linear infinite;
+    }
+
+    progress:not([value])::-moz-progress-bar {
+      width: 100%;
+      background: var(--xp-progress-indeterminate-bg);
+      animation: sliding 2s linear infinite;
+    }
+
+    progress:not([value]):before {
+      content: ""; position: absolute; inset: 0; box-sizing: border-box; background-color: #fff; box-shadow: var(--xp-progress-shadow);
+    }
+
+    progress:not([value]):after {
+      content: ""; position: absolute; top: 1px; left: 2px; width: 100%; height: calc(100% - 2px);
+      box-sizing: border-box; padding: 1px 2px; border-radius: 2px; background: var(--xp-progress-indeterminate-bg); animation: sliding 2s linear infinite;
+    }
+
+    /* range */
+    input[type=range] { -webkit-appearance:none; width:100%; background:transparent }
+    input[type=range]:focus { outline:none }
+    .is-vertical { display:inline-block; width:4px; height:150px; transform:translateY(50%) }
+    .is-vertical>input[type=range] { width:150px; height:4px; margin:0 16px 0 10px; transform-origin:left; transform:rotate(270deg) translateX(calc(-50% + 8px)) }
+    .is-vertical>input[type=range]::-webkit-slider-thumb { transform:translateY(-8px) scaleX(-1) }
+    .is-vertical>input[type=range]::-moz-range-thumb { transform:translateY(2px) scaleX(-1) }
+    .is-vertical>input[type=range].has-box-indicator::-webkit-slider-thumb { transform:translateY(-10px) scaleX(-1) }
+    .is-vertical>input[type=range].has-box-indicator::-moz-range-thumb { transform:translateY(0) scaleX(-1) }
+
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none; height: 21px; width: 11px; transform: translateY(-8px);
+      background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -0.5 11 21' shape-rendering='crispEdges'%3E%3Cpath stroke='%23becbd3' d='M1 0h1M0 1h1'/%3E%3Cpath stroke='%23b6c5cd' d='M2 0h1M0 2h1'/%3E%3Cpath stroke='%23b5c4cd' d='M3 0h5M0 3h1M0 4h1M0 5h1M0 6h1M0 7h1M0 8h1M0 9h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23afbfc8' d='M8 0h1M0 14h1'/%3E%3Cpath stroke='%239fb2be' d='M9 0h1M0 15h1'/%3E%3Cpath stroke='%23f5c6ba' d='M1 1h1'/%3E%3Cpath stroke='%23e89282' d='M2 1h1M1 2h1'/%3E%3Cpath stroke='%23d96b5a' d='M3 1h1M1 3h1'/%3E%3Cpath stroke='%23d96b5a' d='M4 1h3'/%3E%3Cpath stroke='%23d96b5a' d='M7 1h1'/%3E%3Cpath stroke='%23cb4e3d' d='M8 1h1M7 2h1'/%3E%3Cpath stroke='%23aa3223' d='M9 1h1M2 16h1m0 1h1m0 1h1'/%3E%3Cpath stroke='%23879aa6' d='M10 1h1'/%3E%3Cpath stroke='%23e89282' d='M2 2h1'/%3E%3Cpath stroke='%23d96b5a' d='M3 2h1M2 3h1'/%3E%3Cpath stroke='%23d96b5a' d='M4 2h3'/%3E%3Cpath stroke='%23cb4e3d' d='M8 2h1'/%3E%3Cpath stroke='%23ba3e2d' d='M9 2h1'/%3E%3Cpath stroke='%237d8e99' d='M10 2h1'/%3E%3Cpath stroke='%23d96b5a' d='M3 3h1'/%3E%3Cpath stroke='%23cb4e3d' d='M4 3h4M2 15h1'/%3E%3Cpath stroke='%23ba3e2d' d='M8 3h1'/%3E%3Cpath stroke='%238a2417' d='M9 3h1'/%3E%3Cpath stroke='%23778892' d='M10 3h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23f7f7f4' d='M1 4h1M1 5h1M1 6h1M1 7h1M1 8h1M1 9h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23f5f5f2' d='M2 4h1M2 5h1M2 6h1M2 7h1M2 8h1M2 9h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23f3f3ef' d='M3 4h5M3 5h5M3 6h5M3 7h5M3 8h5M3 9h5m-5 1h5m-5 1h5m-5 1h5m-5 1h4m-4 1h3m-2 1h1'/%3E%3Cpath stroke='%23dcdcd9' d='M8 4h1M8 5h1M8 6h1M8 7h1M8 8h1M8 9h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23c3c3c0' d='M9 4h1M9 5h1M9 6h1M9 7h1M9 8h1M9 9h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23f1f1ed' d='M7 13h1m-2 1h1m-2 1h1'/%3E%3Cpath stroke='%23dbdbd8' d='M8 13h1'/%3E%3Cpath stroke='%23c4c4c1' d='M9 13h1'/%3E%3Cpath stroke='%23d96b5a' d='M1 14h1'/%3E%3Cpath stroke='%23f4f4f1' d='M2 14h1'/%3E%3Cpath stroke='%23e6e6e2' d='M7 14h1m-2 1h1'/%3E%3Cpath stroke='%23cececa' d='M8 14h1'/%3E%3Cpath stroke='%23ba3e2d' d='M9 14h1'/%3E%3Cpath stroke='%23788993' d='M10 14h1'/%3E%3Cpath stroke='%23aa3223' d='M1 15h1'/%3E%3Cpath stroke='%23f2f2ee' d='M3 15h1m0 1h1'/%3E%3Cpath stroke='%23d0d0cc' d='M7 15h1m-2 1h1'/%3E%3Cpath stroke='%23ba3e2d' d='M8 15h1m-2 1h1m-2 1h1'/%3E%3Cpath stroke='%238a2417' d='M9 15h1'/%3E%3Cpath stroke='%2372838d' d='M10 15h1'/%3E%3Cpath stroke='%2391a6b2' d='M1 16h1m0 1h1m0 1h1m0 1h1'/%3E%3Cpath stroke='%23cb4e3d' d='M3 16h1m0 1h1'/%3E%3Cpath stroke='%23e7e7e3' d='M5 16h1'/%3E%3Cpath stroke='%238a2417' d='M8 16h1m-2 1h1m-2 1h1'/%3E%3Cpath stroke='%236e7e88' d='M9 16h1m-2 1h1m-2 1h1m-2 1h1'/%3E%3Cpath stroke='%23d7d7d4' d='M5 17h1'/%3E%3Cpath stroke='%23ba3e2d' d='M5 18h1'/%3E%3Cpath stroke='%238a2417' d='M5 19h1'/%3E%3Cpath stroke='%2380929e' d='M5 20h1'/%3E%3C/svg%3E");
+    }
+
+    input[type=range]::-moz-range-thumb {
+      height: 21px; width: 11px; border: 0; border-radius: 0; transform: translateY(2px);
+      background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -0.5 11 21' shape-rendering='crispEdges'%3E%3Cpath stroke='%23becbd3' d='M1 0h1M0 1h1'/%3E%3Cpath stroke='%23b6c5cd' d='M2 0h1M0 2h1'/%3E%3Cpath stroke='%23b5c4cd' d='M3 0h5M0 3h1M0 4h1M0 5h1M0 6h1M0 7h1M0 8h1M0 9h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23afbfc8' d='M8 0h1M0 14h1'/%3E%3Cpath stroke='%239fb2be' d='M9 0h1M0 15h1'/%3E%3Cpath stroke='%23f5c6ba' d='M1 1h1'/%3E%3Cpath stroke='%23e89282' d='M2 1h1M1 2h1'/%3E%3Cpath stroke='%23d96b5a' d='M3 1h1M1 3h1'/%3E%3Cpath stroke='%23d96b5a' d='M4 1h3'/%3E%3Cpath stroke='%23d96b5a' d='M7 1h1'/%3E%3Cpath stroke='%23cb4e3d' d='M8 1h1M7 2h1'/%3E%3Cpath stroke='%23aa3223' d='M9 1h1M2 16h1m0 1h1m0 1h1'/%3E%3Cpath stroke='%23879aa6' d='M10 1h1'/%3E%3Cpath stroke='%23e89282' d='M2 2h1'/%3E%3Cpath stroke='%23d96b5a' d='M3 2h1M2 3h1'/%3E%3Cpath stroke='%23d96b5a' d='M4 2h3'/%3E%3Cpath stroke='%23cb4e3d' d='M8 2h1'/%3E%3Cpath stroke='%23ba3e2d' d='M9 2h1'/%3E%3Cpath stroke='%237d8e99' d='M10 2h1'/%3E%3Cpath stroke='%23d96b5a' d='M3 3h1'/%3E%3Cpath stroke='%23cb4e3d' d='M4 3h4M2 15h1'/%3E%3Cpath stroke='%23ba3e2d' d='M8 3h1'/%3E%3Cpath stroke='%238a2417' d='M9 3h1'/%3E%3Cpath stroke='%23778892' d='M10 3h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23f7f7f4' d='M1 4h1M1 5h1M1 6h1M1 7h1M1 8h1M1 9h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23f5f5f2' d='M2 4h1M2 5h1M2 6h1M2 7h1M2 8h1M2 9h1m-1 1h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23f3f3ef' d='M3 4h5M3 5h5M3 6h5M3 7h5M3 8h5M3 9h5m-5 1h5m-5 1h5m-5 1h5m-5 1h4m-4 1h3m-2 1h1'/%3E%3Cpath stroke='%23dcdcd9' d='M8 4h1M8 5h1M8 6h1M8 7h1M8 8h1M8 9h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23c3c3c0' d='M9 4h1M9 5h1M9 6h1M9 7h1M9 8h1M9 9h1m-1 1h1m-1 1h1m-1 1h1'/%3E%3Cpath stroke='%23f1f1ed' d='M7 13h1m-2 1h1m-2 1h1'/%3E%3Cpath stroke='%23dbdbd8' d='M8 13h1'/%3E%3Cpath stroke='%23c4c4c1' d='M9 13h1'/%3E%3Cpath stroke='%23d96b5a' d='M1 14h1'/%3E%3Cpath stroke='%23f4f4f1' d='M2 14h1'/%3E%3Cpath stroke='%23e6e6e2' d='M7 14h1m-2 1h1'/%3E%3Cpath stroke='%23cececa' d='M8 14h1'/%3E%3Cpath stroke='%23ba3e2d' d='M9 14h1'/%3E%3Cpath stroke='%23788993' d='M10 14h1'/%3E%3Cpath stroke='%23aa3223' d='M1 15h1'/%3E%3Cpath stroke='%23f2f2ee' d='M3 15h1m0 1h1'/%3E%3Cpath stroke='%23d0d0cc' d='M7 15h1m-2 1h1'/%3E%3Cpath stroke='%23ba3e2d' d='M8 15h1m-2 1h1m-2 1h1'/%3E%3Cpath stroke='%238a2417' d='M9 15h1'/%3E%3Cpath stroke='%2372838d' d='M10 15h1'/%3E%3Cpath stroke='%2391a6b2' d='M1 16h1m0 1h1m0 1h1m0 1h1'/%3E%3Cpath stroke='%23cb4e3d' d='M3 16h1m0 1h1'/%3E%3Cpath stroke='%23e7e7e3' d='M5 16h1'/%3E%3Cpath stroke='%238a2417' d='M8 16h1m-2 1h1m-2 1h1'/%3E%3Cpath stroke='%236e7e88' d='M9 16h1m-2 1h1m-2 1h1m-2 1h1'/%3E%3Cpath stroke='%23d7d7d4' d='M5 17h1'/%3E%3Cpath stroke='%23ba3e2d' d='M5 18h1'/%3E%3Cpath stroke='%238a2417' d='M5 19h1'/%3E%3Cpath stroke='%2380929e' d='M5 20h1'/%3E%3C/svg%3E");
+    }
+    input[type=range]::-webkit-slider-runnable-track { width:100%; height:2px; box-sizing:border-box; background:#ecebe4; border-right:1px solid #f3f2ea; border-bottom:1px solid #f3f2ea; border-radius:2px; box-shadow:1px 0 0 #fff,1px 1px 0 #fff,0 1px 0 #fff,-1px 0 0 #9d9c99,-1px -1px 0 #9d9c99,0 -1px 0 #9d9c99,-1px 1px 0 #fff,1px -1px #9d9c99 }
+    input[type=range]::-moz-range-track { width:100%; height:2px; box-sizing:border-box; background:#ecebe4; border-right:1px solid #f3f2ea; border-bottom:1px solid #f3f2ea; border-radius:2px; box-shadow:1px 0 0 #fff,1px 1px 0 #fff,0 1px 0 #fff,-1px 0 0 #9d9c99,-1px -1px 0 #9d9c99,0 -1px 0 #9d9c99,-1px 1px 0 #fff,1px -1px #9d9c99 }
+    .is-vertical>input[type=range]::-webkit-slider-runnable-track { border-left:1px solid #f3f2ea; border-right:0; border-bottom:1px solid #f3f2ea; box-shadow:-1px 0 0 #fff,-1px 1px 0 #fff,0 1px 0 #fff,1px 0 0 #9d9c99,1px -1px 0 #9d9c99,0 -1px 0 #9d9c99,1px 1px 0 #fff,-1px -1px #9d9c99 }
+    .is-vertical>input[type=range]::-moz-range-track { border-left:1px solid #f3f2ea; border-right:0; border-bottom:1px solid #f3f2ea; box-shadow:-1px 0 0 #fff,-1px 1px 0 #fff,0 1px 0 #fff,1px 0 0 #9d9c99,1px -1px 0 #9d9c99,0 -1px 0 #9d9c99,1px 1px 0 #fff,-1px -1px #9d9c99 }
+
+    /* actual player styling */
+    #player {
+      border: 3px solid #C9C9C9;
+      display: flex;
+      flex-direction: row;
+      height: 191px;
+      background-image: url("${ASSETS.bg}");
+      font-family: sans-serif;
+    }
+    #display-box { display: flex; align-items: center; width: 50%; }
+    #cover { width: 176px; height: 176px; object-fit: cover; }
+
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height: 178px;
+      width: 127px;
+      margin-top: 3px;
+      background-image: url("${ASSETS.infoBg}");
+      background-size: cover;
+      color: black;
+    }
+
+    #song-info { width: 100%; padding: 5px; box-sizing: border-box; }
+    #title { font-weight: normal; font-size: 15px; line-height: 1.1; }
+    #artist { margin: 0; opacity: 0.95; }
+
+    #controls-container {
+      display: flex; flex-direction: column; align-items: center;
+      margin: 10px; width: 100%; padding-top: 15px;
+    }
+
+    #controls {
+      display: flex; flex-direction: row; justify-content: center;
+      width: 80%; cursor: pointer;
+    }
+    #controls img { transition: transform 0.1s; }
+    #controls img:active { transform: scale(0.95); }
+
+    #progress-bar-container { width: 100%; }
+    #progress-bar { width: 80%; display: block; margin: 20px auto 0 auto; }
+
+    #volume-container {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+    }
+    #player .is-vertical {
+      height: 126px;
+      margin-left: 23%;
+      margin: 0 1.2em 1em 0;
+    }
+    #player .is-vertical>input[type=range] { width: 125px; }
+    #volume-display { font-weight: bold; display: none; }
+  `;
+  document.head.appendChild(style);
+
+  // create HTML
+  const playerContainer = document.createElement("div");
+  playerContainer.id = "player";
+  playerContainer.innerHTML = `
+    <div id="display-box">
+      <img id="cover" src="">
+      <div id="info-container">
+        <div id="song-info">
+          <h3 id="title"></h3>
+          <p id="artist"></p>
+        </div>
+      </div>
+    </div>
+    <div id="controls-container">
+      <div id="controls">
+        <img id="prevButton" src="${ASSETS.btnPrev}" alt="Previous">
+        <img id="playPauseButton" src="${ASSETS.btnPlay}" alt="Play/Pause">
+        <img id="nextButton" src="${ASSETS.btnNext}" alt="Next">
+      </div>
+      <div id="progress-bar-container">
+        <progress id="progress-bar" value="0" max="100"></progress>
+      </div>
+    </div>
+    <div id="volume-container">
+      <img src="${ASSETS.volIcon}" alt="Volume">
+      <div class="is-vertical">
+        <input type="range" id="volumeSlider" min="0" max="9" step="1" value="1">
+      </div>
+      <span id="volume-display">1</span>
+    </div>
+  `;
+
+  gameWindow.insertAdjacentElement("afterend", playerContainer);
+
+  // set up audio & logic
+  const audio = getAudioElement();
+  const startSong = activePlaylist.getCurrentSong();
+  if (startSong) audio.src = startSong.audioLink;
+  audio.volume = currentVolume / 9;
+
+  const playPauseBtn = document.getElementById("playPauseButton");
+  const prevBtn = document.getElementById("prevButton");
+  const nextBtn = document.getElementById("nextButton");
+  const progressBar = document.getElementById("progress-bar");
+  const volumeSlider = document.getElementById("volumeSlider");
+  const volDisplay = document.getElementById("volume-display");
+
+  // play/pause
+  playPauseBtn.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+      updatePlayPauseIcon(true);
+    } else {
+      audio.pause();
+      updatePlayPauseIcon(false);
+    }
+  });
+
+  // next/prev
+  const playSongAtIndex = () => {
+    updateUI(activePlaylist);
+    audio.src = activePlaylist.getCurrentSong().audioLink;
+    audio.play();
+    updatePlayPauseIcon(true);
+  };
+
+  nextBtn.addEventListener("click", () => {
+    activePlaylist.playNext();
+    playSongAtIndex();
+  });
+
+  prevBtn.addEventListener("click", () => {
+    activePlaylist.playPrevious();
+    playSongAtIndex();
+  });
+
+  // progressbar
+  audio.addEventListener("timeupdate", () => {
+    if (Number.isFinite(audio.duration)) {
+      progressBar.value = (audio.currentTime / audio.duration) * 100;
+    }
+  });
+
+  audio.addEventListener("ended", () => {
+    activePlaylist.playNext();
+    playSongAtIndex();
+  });
+
+  progressBar.addEventListener("click", function (e) {
+    if (Number.isFinite(audio.duration)) {
+      const rect = this.getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const seekTime = (clickX / rect.width) * audio.duration;
+      audio.currentTime = seekTime;
+    }
+  });
+
+  // volume
+  volumeSlider.addEventListener("input", (e) => {
+    currentVolume = parseInt(e.target.value, 10);
+    volDisplay.textContent = currentVolume;
+    audio.volume = currentVolume / 9;
+  });
+
+  // initial play
+  updateUI(activePlaylist);
+  audio.play()
+    .then(() => updatePlayPauseIcon(true))
+    .catch(() => updatePlayPauseIcon(false));
+}
+
+setupMusicPlayer();
+
+function addDynamicCSS() {
+    var css = `
+        .inner_window_question h3 .mytooltip{
+            background-color: lightskyblue;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: lightblue;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 240px;
+            background-color: lightblue;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 240px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+tooltipList = [
+    {searchString: "Mahathir", explanationText: "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVyJN_gD434P70fGp_SZHurYWs6pMtm5ZE7pYYOk6hugTMTx8e6Ilz32Nv&s=10> placeholder"},
+    {searchString: "gold", explanationText: "A metal that is more valuable than silver"},
+	{searchString: "smurfy grin", explanationText: "<img src=https://cdn.discordapp.com/attachments/1131296206908301423/1138054729604284446/schlumpf.png> :3"}
+        
+];
+// Pretty much a banner system. This one was used on
+// 2016 ALOT and reused here.
+(function () {
+  const gameWindow = document.getElementById("game_window");
+  if (!gameWindow) return;
+
+  // configuration object
+  const CONFIG = {
+    bannerHeight: 60,
+    fadeTransition: 250,
+    preloadCount: 4,
+    enablePreloading: true,
+    enableLocalStorage: true,
+    hoverEffect: true,
+    clickCooldown: 150,
+    maxCacheSize: 20,
+    useRequestIdleCallback: true,
+    maxRetries: 2,
+    failedBannerTimeout: 5 * 60 * 1000
+  };
+
+  if (!document.getElementById('banner-system-styles')) {
+    const style = document.createElement('style');
+    style.id = 'banner-system-styles';
+    style.textContent = `
+            #bottomBar {
+                height: ${CONFIG.bannerHeight}px;
+                font-size: 12px;
+                background-color: transparent;
+                margin: 1em auto;
+                position: relative;
+                overflow: hidden;
+                cursor: pointer;
+                transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+                user-select: none;
+                border-radius: 3px;
+                width: 100%;
+                max-width: 800px;
+            }
+            #bottomBar:hover {
+                transform: scale(1.02);
+                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            }
+            #bottomBar img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                display: block;
+                transition: opacity ${CONFIG.fadeTransition}ms ease-in-out;
+                pointer-events: none;
+            }
+            #bannerIndicator {
+                position: absolute;
+                top: 2px; right: 4px;
+                width: 16px; height: 16px;
+                background: rgba(255, 255, 255, 0.8);
+                border-radius: 50%;
+                display: flex;
+                align-items: center; justify-content: center;
+                font-size: 10px; font-weight: bold;
+                color: #333;
+                opacity: 0;
+                transition: opacity 200ms ease-in-out, transform 150ms ease-in-out;
+                pointer-events: none;
+                z-index: 10;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            }
+            #bottomBar:hover #bannerIndicator {
+                opacity: 1;
+            }
+            .indicator-pop {
+                transform: scale(1.2);
+            }
+        `;
+    document.head.appendChild(style);
+  }
+
+  // banner list
+  const banners = [{
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/12k_sarah.gif",
+    alt: "Windows 98 banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/banner.gif",
+    alt: "Mitsubichi banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/toon_fyistudent.gif",
+    alt: "CNN fyi.com banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/quiz_cnn_en.gif",
+    alt: "Nokia banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/gk_glittert.gif",
+    alt: "GAP banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/left.gif",
+    alt: "Stealthforce banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/scoobydoo.banner3.gif",
+    alt: "Scooby-Doo! banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/mm03_storymet_t2.gif",
+    alt: "Mamamedia.com banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/pac.banner.gif",
+    alt: "Pac-Man banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/versus.gif",
+    alt: "Pokémon banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/rayman2contest.gif",
+    alt: "Rayman banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/banner1.gif",
+    alt: "Cheetos banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/hbtour.banner.gif",
+    alt: "Hanna-Barbera banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/ed1.gif",
+    alt: "EEnE banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/astroanimbnnr.gif",
+    alt: "Radioshack banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/chills3.gif",
+    alt: "Jack Frost banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/stuart468x60.gif",
+    alt: "Stuart Little banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/468orange.gif",
+    alt: "Cooking.com banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/driven468_10k.gif",
+    alt: "Texas Instruments banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/Purple_11.75.gif",
+    alt: "USMint banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/lexicontest.gif", // lexicon_468x60.png
+    alt: "Lexicon banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/icollector_modernart2.gif",
+    alt: "iCollector banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/flower.gif",
+    alt: "Trane banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/millennium.epi.7.gif",
+    alt: "CNN millenium banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/strat_tuna468x6013k6loop.gif",
+    alt: "IBM tuna banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/suretrade.gif", // f4_guessing_468x60_3loop.png
+    alt: "suretrade.com banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/painewebber.gif", // banner2_468x60_3loop_12k.gif
+    alt: "PaineWebber banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/drinkingwater468x60_3loop.gif",
+    alt: "Catholic Relief Services banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/ebay.gif", // ebay_vmad_banner_468x60.png
+    alt: "eBay banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/winxp.gif", // winxp_MS_XP_468x60.gif
+    alt: "Windows XP banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/ubid_geek.gif", // ubid_comp_12k_468x60_1108_1.gif
+    alt: "uBid banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/ubid_camera.gif", // ubid_468x60_cameras_12k_051302_slider_1.png,
+    alt: "uBid 2 banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/wlm.gif", // SGW.468x60.gif
+    alt: "Windows Live Messenger banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/dell.gif", // dell_35334_flash_backupgif_P4P07137_back2sch_DHS_fy03_SEP_468x60.png
+    alt: "Dell banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/specials_03112002.png",
+    alt: "Adult Swim banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/barack.png",
+    alt: "Adult Swim 2 banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/computer.gif",
+    alt: "computers.com banner",
+    weight: 1
+  },
+  {
+    url: "https://file.garden/aNtAfG887DiA_7lO/2012LBM/ads/microsoftlearn.gif",
+    alt: "Microsoft banner",
+    weight: 1
+  },
+  ];
+
+  // caching system
+  class BannerCache {
+    constructor() {
+      this.imageCache = new Map();
+      this.failedUrls = new Map();
+      this.storageKey = 'vintageBannerCache_v2';
+      this.maxCacheAge = 7 * 24 * 60 * 60 * 1000;
+
+      if (CONFIG.enableLocalStorage) {
+        this.loadFromStorage();
+      }
+    }
+	
+	saveToStorage() {
+	  if (this._saveTimer) clearTimeout(this._saveTimer);
+	  this._saveTimer = setTimeout(() => {
+		try {
+		  const cacheData = {
+			timestamp: Date.now(),
+			failed: Array.from(this.failedUrls.entries())
+		  };
+		  localStorage.setItem(this.storageKey, JSON.stringify(cacheData));
+		} catch (e) {
+          console.warn('Banner cache save failed:', e);
+		}
+	  }, 1000);
+	}
+
+    loadFromStorage() {
+      try {
+        const cached = localStorage.getItem(this.storageKey);
+        if (!cached) return;
+
+        const data = JSON.parse(cached);
+        const age = Date.now() - data.timestamp;
+
+        if (age < this.maxCacheAge) {
+          if (data.failed) {
+            this.failedUrls = new Map(data.failed);
+          }
+        } else {
+          localStorage.removeItem(this.storageKey);
+        }
+      } catch (e) {
+        console.warn('Banner cache load failed:', e);
+      }
+    }
+
+    isRecentlyFailed(url) {
+      if (!this.failedUrls.has(url)) return false;
+
+      const failedTime = this.failedUrls.get(url);
+      const timeSinceFailed = Date.now() - failedTime;
+
+      // allow retry after timeout
+      if (timeSinceFailed > CONFIG.failedBannerTimeout) {
+        this.failedUrls.delete(url);
+        return false;
+      }
+
+      return true;
+    }
+
+    markAsFailed(url) {
+      this.failedUrls.set(url, Date.now());
+      this.imageCache.delete(url);
+      this.saveToStorage();
+    }
+
+    isCachedImageValid(img) {
+      return img &&
+        img.complete &&
+        img.naturalHeight !== 0 &&
+        img.naturalWidth !== 0;
+    }
+
+    preloadImage(url) {
+      if (this.isRecentlyFailed(url)) {
+        return Promise.reject(new Error(`Recently failed: ${url}`));
+      }
+
+      if (this.imageCache.has(url)) {
+        const cachedImg = this.imageCache.get(url);
+        if (this.isCachedImageValid(cachedImg)) {
+          return Promise.resolve(cachedImg);
+        } else {
+          this.imageCache.delete(url);
+        }
+      }
+
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        let timeoutId;
+
+        const cleanup = () => {
+          clearTimeout(timeoutId);
+          img.onload = img.onerror = null;
+        };
+
+        timeoutId = setTimeout(() => {
+          cleanup();
+          this.markAsFailed(url);
+          reject(new Error(`Timeout: ${url}`));
+        }, 8000);
+
+        img.onload = () => {
+          cleanup();
+          if (this.isCachedImageValid(img)) {
+            this.addToCache(url, img);
+            resolve(img);
+          } else {
+            this.markAsFailed(url);
+            reject(new Error(`Invalid image: ${url}`));
+          }
+        };
+
+        img.onerror = () => {
+          cleanup();
+          this.markAsFailed(url);
+          reject(new Error(`Failed: ${url}`));
+        };
+
+        img.fetchPriority = "low";
+        img.src = url;
+      });
+    }
+
+    addToCache(url, img) {
+      if (!this.isCachedImageValid(img)) return;
+
+      if (this.imageCache.has(url)) this.imageCache.delete(url); // refresh order
+      this.imageCache.set(url, img);
+
+      while (this.imageCache.size > CONFIG.maxCacheSize) {
+        const lruUrl = this.imageCache.keys().next().value;
+        this.imageCache.delete(lruUrl);
+      }
+
+      this.saveToStorage();
+    }
+
+    preloadBatch(urls) {
+      if (!CONFIG.enablePreloading) return Promise.resolve();
+
+      if (CONFIG.useRequestIdleCallback && window.requestIdleCallback) {
+        return new Promise(resolve => {
+          window.requestIdleCallback(() => {
+            const promises = urls.map(url =>
+              this.preloadImage(url).catch(() => null)
+            );
+            Promise.allSettled(promises).then(resolve);
+          }, { timeout: 2000 });
+        });
+      } else {
+        const promises = urls.map(url =>
+          this.preloadImage(url).catch(() => null)
+        );
+        return Promise.allSettled(promises);
+      }
+    }
+
+    getCachedImage(url) {
+      const img = this.imageCache.get(url);
+      if (!this.isCachedImageValid(img)) {
+        this.imageCache.delete(url);
+        return null;
+      }
+      // refresh order
+      this.imageCache.delete(url);
+      this.imageCache.set(url, img);
+      return img;
+    }
+
+    getAvailableBanners(bannerList) {
+      return bannerList.filter(banner => !this.isRecentlyFailed(banner.url));
+    }
+  }
+
+  // weighted random selection
+  const bannerSelector = (() => {
+    let weightSum = null;
+
+    const getTotalWeight = () => {
+      if (weightSum === null) {
+        weightSum = banners.reduce((sum, banner) => sum + banner.weight, 0);
+      }
+      return weightSum;
+    };
+
+    return {
+      // accept cache to filter failed banners
+      getRandomBanner(excludeRecent = [], cache = null) {
+        let availableBanners = banners.filter(b => !excludeRecent.includes(b.url));
+
+        // filter out failed banners
+        if (cache) {
+          availableBanners = availableBanners.filter(b => !cache.isRecentlyFailed(b.url));
+        }
+
+        if (availableBanners.length === 0) {
+          // if all banners failed or recent, try any banner not in exclude list
+          availableBanners = banners.filter(b => !excludeRecent.includes(b.url));
+
+          if (availableBanners.length === 0) {
+            // last resort: return any banner
+            return banners[0];
+          }
+        }
+
+        const totalWeight = availableBanners.reduce((sum, banner) => sum + banner.weight, 0);
+        let random = Math.random() * totalWeight;
+
+        for (const banner of availableBanners) {
+          random -= banner.weight;
+          if (random <= 0) return banner;
+        }
+
+        return availableBanners[0];
+      },
+
+      initializeSelectionTable() {
+        getTotalWeight();
+      }
+    };
+  })();
+
+  // banner system
+  class ClickableBannerSystem {
+    constructor() {
+      this.createElements();
+
+      this.cache = new BannerCache();
+      this.currentBanner = null;
+      this.recentBanners = [];
+      this.isTransitioning = false;
+      this.lastClickTime = 0;
+      this.rafId = null;
+      this.retryCount = 0;
+
+      this.init();
+    }
+
+    init() {
+      this.setupEventListeners();
+      bannerSelector.initializeSelectionTable();
+
+      Promise.resolve()
+        .then(() => this.preloadInitialBanners())
+        .then(() => this.displayRandomBanner())
+        .catch(() => {
+          this.displayRandomBanner();
+        });
+
+      window.addEventListener('beforeunload', () => {
+        this.destroy();
+      });
+    }
+
+    createElements() {
+      this.container = document.createElement("div");
+      this.container.id = "bottomBar";
+      this.container.setAttribute('tabindex', '0');
+      this.container.setAttribute('role', 'button');
+      this.container.setAttribute('aria-label', 'Click to change banner');
+
+      this.imageElement = document.createElement("img");
+      this.clickIndicator = document.createElement("div");
+      this.clickIndicator.id = "bannerIndicator";
+      this.clickIndicator.textContent = "↻";
+
+      const frag = document.createDocumentFragment();
+      frag.appendChild(this.imageElement);
+      frag.appendChild(this.clickIndicator);
+      this.container.appendChild(frag);
+
+      gameWindow.insertAdjacentElement("afterend", this.container);
+
+      this.imageElement.onerror = () => {
+        console.warn('Banner display failed:', this.imageElement.src);
+        if (this.currentBanner) this.cache.markAsFailed(this.currentBanner.url);
+        // try to load another banner
+        if (this.retryCount < CONFIG.maxRetries) {
+          this.retryCount++;
+          setTimeout(() => this.displayRandomBanner(), 100);
+        }
+      };
+      this.imageElement.onload = () => { this.retryCount = 0; }; // reset retry count on successful load
+    }
+
+    setupEventListeners() {
+      this.container.onclick = (e) => {
+        e.preventDefault();
+        const now = Date.now();
+        if (now - this.lastClickTime < CONFIG.clickCooldown || this.isTransitioning) {
+          return;
+        }
+        this.lastClickTime = now;
+        this.retryCount = 0;
+        this.nextBanner();
+      };
+
+      this.container.onkeydown = (e) => {
+        if (e.code === 'Space' || e.code === 'Enter') {
+          e.preventDefault();
+          this.retryCount = 0;
+          this.nextBanner();
+        }
+      };
+    }
+
+    async preloadInitialBanners() {
+      // only preload non-failed banners
+      const sortedBanners = [...banners]
+        .filter(b => !this.cache.isRecentlyFailed(b.url))
+        .sort((a, b) => b.weight - a.weight)
+        .slice(0, CONFIG.preloadCount);
+
+      const urlsToPreload = sortedBanners.map(b => b.url);
+      return this.cache.preloadBatch(urlsToPreload);
+    }
+
+    async displayBanner(banner, useTransition = false) {
+      if (this.isTransitioning) return;
+
+      const cachedImg = this.cache.getCachedImage(banner.url);
+
+      if (useTransition && CONFIG.fadeTransition > 0) {
+        this.isTransitioning = true;
+        this.imageElement.style.opacity = '0';
+
+        setTimeout(() => {
+          requestAnimationFrame(() => {
+            if (cachedImg) {
+              this.imageElement.src = cachedImg.src;
+            } else {
+              this.imageElement.src = banner.url;
+            }
+            this.imageElement.alt = banner.alt;
+
+            this.imageElement.style.opacity = '1';
+            this.isTransitioning = false;
+          });
+        }, CONFIG.fadeTransition / 2);
+      } else {
+        requestAnimationFrame(() => {
+          if (cachedImg) {
+            this.imageElement.src = cachedImg.src;
+          } else {
+            this.imageElement.src = banner.url;
+          }
+          this.imageElement.alt = banner.alt;
+        });
+      }
+
+      this.currentBanner = banner;
+      this.recentBanners.push(banner.url);
+      if (this.recentBanners.length > 3) {
+        this.recentBanners.shift();
+      }
+
+      // preload if not cached
+      if (!cachedImg) {
+        this.cache.preloadImage(banner.url).catch((err) => {
+          console.warn('Preload failed:', err.message);
+        });
+      }
+
+      // opportunistically preload next banners
+      if (CONFIG.useRequestIdleCallback && window.requestIdleCallback) {
+        window.requestIdleCallback(() => {
+          const nextBanners = banners
+            .filter(b =>
+              !this.recentBanners.includes(b.url) &&
+              !this.cache.imageCache.has(b.url) &&
+              !this.cache.isRecentlyFailed(b.url)
+            )
+            .sort((a, b) => b.weight - a.weight)
+            .slice(0, 2);
+
+          this.cache.preloadBatch(nextBanners.map(b => b.url));
+        }, { timeout: 5000 });
+      }
+    }
+
+    displayRandomBanner() {
+      const banner = bannerSelector.getRandomBanner(this.recentBanners, this.cache);
+      this.displayBanner(banner, this.currentBanner !== null);
+    }
+
+    nextBanner() {
+      this.displayRandomBanner();
+
+      requestAnimationFrame(() => {
+        this.clickIndicator.classList.add('indicator-pop');
+
+        setTimeout(() => {
+          this.clickIndicator.classList.remove('indicator-pop');
+        }, 150);
+      });
+    }
+
+    destroy() {
+      cancelAnimationFrame(this.rafId);
+
+      if (this.container) {
+        this.container.onclick = null;
+        this.container.onmouseenter = null;
+        this.container.onmouseleave = null;
+        this.container.onkeydown = null;
+
+        if (this.container.parentNode) {
+          this.container.parentNode.removeChild(this.container);
+        }
+      }
+
+      if (this.imageElement) {
+        this.imageElement.onload = null;
+        this.imageElement.onerror = null;
+      }
+
+      this.container = null;
+      this.imageElement = null;
+      this.clickIndicator = null;
+    }
+  }
+
+  const bannerSystem = new ClickableBannerSystem();
+
+  window.vintageBannerSystem = {
+    next: () => bannerSystem.nextBanner(),
+    current: () => bannerSystem.currentBanner?.alt || 'Loading...',
+    clearFailedCache: () => {
+      bannerSystem.cache.failedUrls.clear();
+      bannerSystem.cache.saveToStorage();
+      console.log('Failed banner cache cleared');
+    },
+    getFailedBanners: () => Array.from(bannerSystem.cache.failedUrls.keys())
+  };
+})();
+
+//#endcode
